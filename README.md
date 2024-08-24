@@ -1,7 +1,7 @@
 # CSAICSABTeam010
 CSAICSABTeam010
 
-TEAM NAME: MICROCREW
+TEAM NAME: 
 
 TEAM IDEA:
 
@@ -13,7 +13,7 @@ AkULA NAGASHIVA nagashiva00 akulanagashiva@gmail.com LCI2023041
 
 SAMEER ANIL PAZARE youfoundmee sameerpazare123@gmail.com LCB2023056
 
-ABINASH NAYAK abinash-30 abhinashnayakarbi30@gmail.com  LCI2023036
+ABINASH NAYAK abinash-30 abinashnayakarbi30@gmail.com  LCB2023036
 
 ATUL GOND atulgond gondatul304@gmail.com LCB2023033 
 
