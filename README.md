@@ -19,8 +19,6 @@ PRANJAY SINGH blunterdecosta123 singhpran15@gmail.com LCI2023001
 
 AkULA NAGASHIVA nagashiva00 akulanagashiva@gmail.com LCI2023041
 
-XYZ  xyz00 akulanagasha@gmailc.om LCI2023
-
 SAMEER ANIL PAZARE youfoundmee sameerpazare123@gmail.com LCB2023056
 
 ABINASH NAYAK abinash-30 abinashnayakarbi30@gmail.com  LCB2023036
