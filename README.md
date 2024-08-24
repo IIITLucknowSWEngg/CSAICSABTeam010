@@ -3,7 +3,15 @@ CSAICSABTeam010
 
 TEAM NAME: COOKIE BYTE
 
-TEAM IDEA:
+TEAM IDEA:*Digital Art Marketplace*
+   - *Description:* A platform where artists can showcase and sell their digital artwork, and users can purchase or commission work.
+   - *Features:*
+     - Artist profiles and portfolios.
+     - Art listings with pricing and purchasing options.
+     - Commission management system.
+     - User reviews and feedback.
+   - *Stakeholders:* Artists, Art buyers, Admin.
+
 
 TEAM MEMBERS:
 
