@@ -1,9 +1,9 @@
-# Decathlon Clone Project
+# Scope of the Project
 
 ## Included Features
 
 ### Core Features
-| Feature                 | Description                                               | Status       |
+| Feature                 | Description                                               | Status(Included)         |
 |:------------------------ |:---------------------------------------------------------- |:-------------|
 | User Registration        | Allows users to create an account.                        | ✅ |
 | User Authentication      | Provides secure login and logout functionality.           | ✅ |
@@ -17,7 +17,7 @@
 | User Profile Management  | Enables users to manage their profile and settings.        | ✅ |
 
 ### Advanced Features
-| Feature                 | Description                                               | Status       |
+| Feature                 | Description                                               | Status(Included)        |
 |:------------------------ |:---------------------------------------------------------- |:-------------|
 | Wishlist                 | Users can save favorite products for future purchases.    | ✅ |
 | Product Comparison       | Allows comparison of multiple products side-by-side.      | ✅ |
@@ -27,7 +27,7 @@
 | Multi-language Support   | Provides content in multiple languages.                   | ✅ |
 
 ### Integrations
-| Feature                 | Description                                               | Status       |
+| Feature                 | Description                                               | Status(Included)       |
 |:------------------------ |:---------------------------------------------------------- |:-------------|
 | Payment Gateway          | Integration with payment processors for transactions.     | ✅ |
 | Shipping Integration     | Integrates with shipping services to handle deliveries.   | ✅ |
@@ -37,21 +37,21 @@
 ## Excluded Features
 
 ### Core Features
-| Feature                 | Description                                               | Status       |
+| Feature                 | Description                                               | Status(Included)      |
 |:------------------------ |:---------------------------------------------------------- |:-------------|
 | Subscription Service     | Provides subscription-based access or benefits.           | ❌ |
 | Membership Tiers         | Different levels of membership with various perks.        | ❌ |
 | Live Chat Support        | Real-time chat assistance for users.                      | ❌ |
 
 ### Advanced Features
-| Feature                 | Description                                               | Status       |
+| Feature                 | Description                                               | Status(Included)     |
 |:------------------------ |:---------------------------------------------------------- |:-------------|
 | Augmented Reality (AR)   | Interactive AR features for product visualization.        | ❌ |
 | Virtual Try-On           | Allows users to try on products virtually.                | ❌ |
 | Advanced Analytics       | Detailed analytics and reporting features.                | ❌ |
 
 ### Integrations
-| Feature                 | Description                                               | Status       |
+| Feature                 | Description                                               | Status(Included)    |
 |:------------------------ |:---------------------------------------------------------- |:-------------|
 | Loyalty Programs         | Programs to reward frequent customers.                    | ❌ |
 | Affiliate Marketing      | System for managing affiliate partnerships.               | ❌ |
