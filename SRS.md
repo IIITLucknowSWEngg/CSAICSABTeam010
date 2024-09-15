@@ -41,21 +41,26 @@ APIs: RESTful APIs for communication between front-end and back-end
 User registration and authentication
 Profile management
 Password recovery
+
 3.2 Product Management
 Product listing and categorization
 Product detail pages
 Search and filtering options
+
 3.3 Shopping Cart
 Add/remove items from cart
 View cart details
 Update item quantities
+
 3.4 Checkout Process
 Address input
 Payment processing
 Order confirmation
+
 3.5 User Reviews
 Submit and manage product reviews
 View reviews and ratings
+
 3.6 Administrative Interface
 Product and user management
 Order tracking and reporting
@@ -65,25 +70,32 @@ Order tracking and reporting
 4.1 Performance
 Response Time: The website should respond to user interactions (e.g., page loads, form submissions) within 2 seconds under normal load conditions.
 Throughput: The system should support at least 1000 concurrent users without significant performance degradation.
+
 4.2 Usability
 User Interface: The website should be intuitive and easy to navigate, with a consistent layout and design.
 Accessibility: The website must comply with WCAG 2.1 guidelines to ensure accessibility for users with disabilities.
+
 4.3 Reliability
 Uptime: The website should have an uptime of 99.9% per month.
 Error Handling: The system should gracefully handle and log errors, providing meaningful feedback to users when errors occur.
+
 4.4 Security
 Data Protection: User data must be encrypted both in transit (using HTTPS) and at rest.
 Authentication and Authorization: Implement robust user authentication and role-based access control to protect sensitive areas of the site.
 Vulnerability Management: Regularly update and patch the system to protect against known vulnerabilities.
+
 4.5 Maintainability
 Code Quality: The codebase should adhere to coding standards and best practices to ensure ease of maintenance and readability.
 Documentation: Comprehensive documentation must be provided for both the codebase and system architecture.
+
 4.6 Scalability
 Horizontal Scaling: The system should be designed to scale horizontally to accommodate increasing user load by adding more servers.
 Load Balancing: Implement load balancing to distribute traffic evenly across servers.
+
 4.7 Compatibility
 Browser Compatibility: The website must be compatible with the latest versions of major web browsers (e.g., Chrome, Firefox, Safari, Edge).
 Mobile Responsiveness: The website should be fully functional and visually appealing on various mobile devices and screen sizes.
+
 4.8 Localization and Internationalization
 Language Support: The website should support multiple languages, starting with English and potentially expanding to other languages based on user demand.
 Currency: Provide options to display prices in different currencies as required.
@@ -92,8 +104,10 @@ Currency: Provide options to display prices in different currencies as required.
 ## 5. Other Requirements
 5.1 Legal and Regulatory Compliance
 Ensure compliance with relevant legal and regulatory requirements, such as GDPR for user data protection in Europe.
+
 5.2 Environmental Requirements
 Hosting Environment: The website should be hosted on a secure and reliable cloud platform with appropriate backup and disaster recovery measures.
+
 5.3 Training and Support
 User Training: Provide documentation and training resources for users and administrators.
 Technical Support: Offer technical support for resolving system issues and user inquiries.
