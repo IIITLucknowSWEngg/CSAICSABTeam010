@@ -1,4 +1,6 @@
-# Software Requirements Specification (SRS)
+# Software Requirements Specification (SRS) for Decathlon Clone Website
+<hr>
+
 ## 1. Introduction
 1.1 Purpose
 The purpose of this Software Requirements Specification (SRS) is to outline the requirements for the development of a decathlon clone website. This website will serve as an online platform to showcase decathlon sports equipment, provide detailed product information, and support user interactions including purchases and reviews.
@@ -15,8 +17,14 @@ HTTPS: Hypertext Transfer Protocol Secure
 SWEBOK Guide
 IEEE Std 830-1998: IEEE Recommended Practice for Software Requirements Specifications
 1.5 Overview
-This SRS is organized into several sections. Following this introduction, Section 2 describes the overall system architecture. Section 3 specifies functional requirements. Section 4 details non-functional requirements, and Section 5 includes other requirements.
+This SRS is organized into several sections:
+
+System Overview: Describes the overall system architecture.
+Functional Requirements: Specifies the system's functionalities.
+Non-Functional Requirements: Details the quality attributes and constraints.
+Other Requirements: Includes additional considerations.
 <hr>
+
 ## 2. System Overview
 2.1 System Architecture
 The decathlon clone website will be a web-based application consisting of a front-end user interface, a back-end server, and a database. It will follow a client-server architecture with the client interacting through a web browser and the server handling business logic, data storage, and retrieval.
@@ -26,7 +34,8 @@ Front-End: HTML, CSS, JavaScript frameworks (e.g., React, Angular)
 Back-End: Server-side programming languages (e.g., Node.js, Python)
 Database: SQL or NoSQL database (e.g., MySQL, MongoDB)
 APIs: RESTful APIs for communication between front-end and back-end
-<hr>
+<hr> 
+
 ## 3. Functional Requirements
 3.1 User Management
 User registration and authentication
@@ -51,6 +60,7 @@ View reviews and ratings
 Product and user management
 Order tracking and reporting
 <hr>
+
 ## 4. Non-Functional Requirements
 4.1 Performance
 Response Time: The website should respond to user interactions (e.g., page loads, form submissions) within 2 seconds under normal load conditions.
@@ -78,6 +88,7 @@ Mobile Responsiveness: The website should be fully functional and visually appea
 Language Support: The website should support multiple languages, starting with English and potentially expanding to other languages based on user demand.
 Currency: Provide options to display prices in different currencies as required.
 <hr>
+
 ## 5. Other Requirements
 5.1 Legal and Regulatory Compliance
 Ensure compliance with relevant legal and regulatory requirements, such as GDPR for user data protection in Europe.
