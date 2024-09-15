@@ -184,7 +184,3 @@ The decathlon clone website will be a web-based application consisting of a fron
 - **Technical Support**: Offer technical support for resolving system issues and user inquiries.
 
 ---
-
-This SRS serves as a comprehensive guide for the development of the decathlon clone website, detailing both functional and non-functional requirements to ensure a successful implementation.
-
----
