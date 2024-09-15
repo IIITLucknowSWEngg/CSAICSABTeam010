@@ -5,7 +5,7 @@ TEAM NAME: COOKIE BYTE
 
 TEAM IDEA: *DECATHLON CLONE*
 
-# https://github.com/IIITLucknowSWEngg/Assignment/issues/17
+## https://github.com/IIITLucknowSWEngg/Assignment/issues/17
 
 TEAM MEMBERS:
 
