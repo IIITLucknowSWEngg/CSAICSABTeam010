@@ -5,6 +5,8 @@ TEAM NAME: COOKIE BYTE
 
 TEAM IDEA: *DECATHLON CLONE*
 
+# https://github.com/IIITLucknowSWEngg/Assignment/issues/17
+
 TEAM MEMBERS:
 
 PRANJAY SINGH blunterdecosta123 singhpran15@gmail.com LCI2023001
