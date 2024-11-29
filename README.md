@@ -3,7 +3,7 @@ CSAICSABTeam010
 
 TEAM NAME: COOKIE BYTE
 
-TEAM IDEA: *DECATHLON CLONE*
+TEAM IDEA: *DECATHLON Competitor*
 
 ## https://github.com/IIITLucknowSWEngg/Assignment/issues/17
 
