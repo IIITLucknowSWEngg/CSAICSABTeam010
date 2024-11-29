@@ -4,13 +4,13 @@
 
 ### 1.1 Purpose
 
-The purpose of this Software Requirements Specification (SRS) is to outline the requirements for the development of a decathlon clone website. This website will serve as an online platform to showcase decathlon sports equipment, provide detailed product information, and support user interactions including purchases and reviews.
+The purpose of this Software Requirements Specification (SRS) is to outline the requirements for the development of a decathlon competitor website. This website will serve as an online platform to showcase decathlon sports equipment, provide detailed product information, and support user interactions including purchases and reviews.
 
 ---
 
 ### 1.2 Scope
 
-The decathlon clone website will include functionalities such as user registration, product browsing, search and filter options, shopping cart management, checkout process, user reviews, and an administrative interface for managing products and users. This document covers both functional and non-functional requirements, ensuring the system meets performance, usability, security, and other quality attributes.
+The decathlon competitor website will include functionalities such as user registration, product browsing, search and filter options, shopping cart management, checkout process, user reviews, and an administrative interface for managing products and users. This document covers both functional and non-functional requirements, ensuring the system meets performance, usability, security, and other quality attributes.
 
 ---
 
@@ -44,7 +44,7 @@ This SRS is organized into several sections:
 
 ### 2.1 System Architecture
 
-The decathlon clone website will be a web-based application consisting of a front-end user interface, a back-end server, and a database. It will follow a client-server architecture with the client interacting through a web browser and the server handling business logic, data storage, and retrieval.
+The decathlon competitor website will be a web-based application consisting of a front-end user interface, a back-end server, and a database. It will follow a client-server architecture with the client interacting through a web browser and the server handling business logic, data storage, and retrieval.
 
 ---
 
