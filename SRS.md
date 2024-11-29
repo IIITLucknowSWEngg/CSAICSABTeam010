@@ -3,7 +3,7 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document outlines the functional and non-functional requirements for developing the Decathlon.com clone website. The platform will serve as a robust e-commerce solution for sporting goods, enabling users to browse and purchase products, read product reviews, and participate in promotions. Additionally, it will provide administrative tools for inventory and user management.
+This document outlines the functional and non-functional requirements for developing the Decathlon.com competitor website. The platform will serve as a robust e-commerce solution for sporting goods, enabling users to browse and purchase products, read product reviews, and participate in promotions. Additionally, it will provide administrative tools for inventory and user management.
 
 ### 1.2 Scope
 The Decathlon.com competitor website will provide an extensive catalog of sports equipment, facilitate personalized shopping experiences, and ensure seamless integration with logistics and payment systems. The platform will support features like advanced product filtering, multi-sport product categories, community-building features (e.g., forums, blogs), and localized support for different regions.
