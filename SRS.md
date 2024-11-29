@@ -39,7 +39,7 @@ The Decathlon clone will adopt a client-server architecture with:
 ### 2.2 System Components
 - **Front-End**: Built with HTML5, CSS3, JavaScript, and frameworks like React.js or Angular.
 - **Back-End**: Developed using Node.js or Python with RESTful APIs.
-- **Database**: Use of MongoDB (NoSQL) or MySQL (relational) for flexible data storage.
+- **Database**: Use of MongoDB (NoSQL) for flexible data storage.
 - **Integration**: APIs for payment processing, logistics, and marketing analytics.
 
 ---
@@ -47,75 +47,176 @@ The Decathlon clone will adopt a client-server architecture with:
 ## 3. Functional Requirements
 
 ### 3.1 Product Catalog Management
-- **Multi-Sport Categories**: Products organized by sports categories (e.g., running, cycling, swimming).
-- **Advanced Filtering**: Allow users to filter products by brand, price, sport, and availability.
-- **Product Details**: Pages showcasing product descriptions, specifications, reviews, and images.
+- **Multi-Sport Categories**: 
+   - The platform will organize products into various sports categories (e.g., Running, Cycling, Swimming) for easy navigation. This will allow users to find products related to their preferred sport without having to search through a generic list.
+   - Each category will contain relevant sub-categories, such as "Running Shoes", "Cycling Gear", and "Swimwear", for more granular browsing.
+
+- **Advanced Filtering**: 
+   - Users will be able to filter products based on different attributes like brand, price range, sport, color, size, material, and availability. 
+   - Filters will update in real-time as users apply selections, making it easier to narrow down their options to find the right products quickly.
+
+- **Product Details**:
+   - Each product will have a dedicated page showcasing detailed information including product descriptions, specifications (e.g., size, weight, material), reviews, high-quality images, and a price.
+   - Users will also have access to related products to encourage upselling and cross-selling.
 
 ### 3.2 User Management
-- **Personalized Accounts**: Save user preferences, purchase history, and wishlists.
-- **Group Accounts**: Allow clubs, schools, or teams to register and make bulk purchases.
+- **Personalized Accounts**: 
+   - Users will be able to create accounts and log in using email or social media logins. Once logged in, their account will store preferences like favorite sports, purchase history, wishlists, and past reviews.
+   - The platform will offer personalized recommendations based on the user’s browsing and purchasing behavior.
+
+- **Group Accounts**: 
+   - Clubs, schools, and teams will be able to create group accounts, where they can register as a team and make bulk purchases. 
+   - This feature will support collective ordering, where the group can share a cart, apply group discounts, and track orders collectively.
 
 ### 3.3 Shopping Cart and Checkout
-- **Persistent Cart**: Save cart items across sessions.
-- **Quick Checkout**: Support for one-click checkout for repeat customers.
-- **Gift Options**: Include gift wrapping and personalized messages at checkout.
+- **Persistent Cart**: 
+   - Items added to the cart will be saved for the user's next session, even if they log out and come back later. This ensures users can continue shopping without losing their selections.
+   - The cart will also update automatically when stock availability changes or products are updated.
+
+- **Quick Checkout**: 
+   - Returning users will be able to check out with one click using saved payment methods, shipping addresses, and billing information. This reduces friction during the checkout process and enhances the overall user experience.
+   - Guest checkout will also be available for users who do not wish to create an account.
+
+- **Gift Options**: 
+   - At checkout, users can select gift options like gift wrapping, personalized messages, and card messages.
+   - This feature is especially useful for users purchasing gifts for others, providing a seamless and personalized shopping experience.
 
 ### 3.4 Sports Community Features
-- **Blogs and Articles**: Inform users about sports tips, product recommendations, and events.
-- **Event Registration**: Enable users to sign up for sports workshops and competitions.
-- **Forums**: Support discussions among sports enthusiasts.
+- **Blogs and Articles**: 
+   - The platform will feature a dedicated blog or content hub that provides sports tips, product reviews, workout guides, and event news.
+   - Users will be able to comment on articles and share them via social media, helping to foster a community atmosphere on the website.
+
+- **Event Registration**: 
+   - Users will be able to sign up for upcoming sports workshops, fitness classes, and competitive events. These events could be organized by Decathlon itself or by partner organizations.
+   - Event details, schedules, and pricing will be clearly displayed, with easy sign-up and payment options.
+
+- **Forums**: 
+   - A forum will allow users to discuss sports topics, ask for advice, share experiences, and give recommendations.
+   - Moderators and staff will ensure that discussions remain respectful and that users can get help when needed.
 
 ### 3.5 Promotions and Loyalty Programs
-- **Discount Coupons**: Generate promotional codes for marketing campaigns.
-- **Loyalty Points**: Reward customers with points redeemable for discounts or free products.
-- **Seasonal Campaigns**: Highlight specific product categories during sports seasons or events.
+- **Discount Coupons**: 
+   - Users can apply promotional codes during checkout to receive discounts. These codes may be provided through marketing campaigns, newsletters, or loyalty programs.
+   - The system will automatically validate coupon codes and ensure they meet the required conditions before applying the discount.
+
+- **Loyalty Points**: 
+   - Users will earn loyalty points for each purchase, which can be redeemed for discounts, exclusive products, or special services like free shipping.
+   - Points will be added to the user’s account after the order is shipped, and they can track their point balance from their profile page.
+
+- **Seasonal Campaigns**: 
+   - The platform will offer seasonal promotions and discounts, such as discounts on winter sports equipment during the winter season or exclusive offers for summer activities.
+   - These campaigns will be prominently displayed on the homepage and throughout the site.
 
 ### 3.6 Localization and Internationalization
-- **Multi-Language Support**: Display the website in multiple languages based on user preferences.
-- **Currency Conversion**: Show prices in the local currency of the user.
-- **Local Sports Events**: Recommend nearby sports events based on user location.
+- **Multi-Language Support**: 
+   - Users will be able to switch between multiple languages (e.g., English, French, Spanish, German) based on their location or preference.
+   - Language options will be available in the footer or as a dropdown menu in the header for easy access.
+
+- **Currency Conversion**: 
+   - The website will automatically detect the user's location and display prices in their local currency. Alternatively, users will be able to manually select a currency from a list.
+   - The exchange rates will be updated periodically to ensure accurate pricing.
+
+- **Local Sports Events**: 
+   - Based on the user's location, the platform will recommend nearby sports events, workshops, or competitions.
+   - The recommendations will be based on the user’s preferences and the current season, providing relevant and timely suggestions.
 
 ### 3.7 Logistics and Inventory Integration
-- **Real-Time Stock Updates**: Show live inventory availability.
-- **Delivery Estimation**: Provide estimated delivery dates for each product.
-- **Store Pickup**: Allow users to choose in-store pickup as a delivery option.
+- **Real-Time Stock Updates**: 
+   - The system will integrate with the backend inventory management system to show real-time stock availability for all products.
+   - If a product is out of stock, users will be notified, and they may have the option to sign up for a notification when the product becomes available again.
+
+- **Delivery Estimation**: 
+   - During checkout, users will be shown the estimated delivery date for each product based on their shipping address and availability.
+   - The system will consider various factors, including the selected delivery method and current stock levels.
+
+- **Store Pickup**: 
+   - Users will have the option to choose in-store pickup if they are located near a Decathlon store. This will allow them to avoid shipping fees and pick up their items in person.
+   - Store pickup will also show the expected time frame for when the product will be available for pickup.
 
 ### 3.8 Administrative Features
-- **Product Management**: Add, edit, and delete products in bulk.
-- **Order Management**: Track orders, process refunds, and handle cancellations.
-- **Customer Insights**: Generate reports on user activity, sales trends, and product performance.
+- **Product Management**: 
+   - Admins will be able to add, edit, and delete products from the product catalog in bulk. They will also manage product variations like size, color, and stock levels.
+   - Product updates will reflect immediately on the website once approved by the admin.
 
+- **Order Management**: 
+   - Admins will have full visibility over all user orders, including the ability to process refunds, manage cancellations, and track shipments.
+   - Admins can also manage backorders and notify users when their products are back in stock.
+
+- **Customer Insights**: 
+   - Admins will have access to detailed analytics regarding user behavior, sales trends, and product performance. This will help in making data-driven decisions about inventory, promotions, and marketing campaigns.
+   - The system will generate automated reports that can be exported in various formats (e.g., CSV, PDF).
 ---
 
 ## 4. Non-Functional Requirements
 
 ### 4.1 Performance
-- Response time should be less than 2 seconds under normal load.
-- Support up to 5,000 concurrent users per server.
+- **Response Time**: 
+   - The website should respond to user interactions (e.g., page loads, form submissions) within **2 seconds** under normal load conditions. 
+   - This is crucial to maintaining a positive user experience, especially for users with slower internet connections or devices. Faster response times improve overall satisfaction and reduce bounce rates.
+  
+- **Concurrent Users**: 
+   - The system must be able to handle up to **5,000 concurrent users per server** without any noticeable performance degradation. 
+   - Load testing will be conducted to ensure the platform can handle high user activity, especially during peak shopping times like holiday sales or special promotions.
 
 ### 4.2 Usability
-- User-friendly navigation for beginners and experts.
-- Compliance with WCAG 2.1 accessibility standards.
+- **User-Friendly Navigation**:
+   - The website should have an intuitive layout and navigation system that allows both beginners and expert users to easily find products, manage their accounts, and complete transactions.
+   - The design should be visually appealing and easy to use, with clearly defined categories and search options.
+
+- **Accessibility**:
+   - The platform must comply with the **WCAG 2.1 (Web Content Accessibility Guidelines)** to ensure it is accessible to users with disabilities.
+   - This includes providing alternative text for images, ensuring keyboard navigation, and offering screen reader compatibility for users with visual impairments.
 
 ### 4.3 Security
-- End-to-end encryption for data in transit and at rest.
-- Role-based access control for admin and supplier accounts.
+- **Data Encryption**: 
+   - All sensitive data transmitted between the client and the server (such as payment details, personal information, etc.) should be encrypted using **end-to-end encryption** to protect user privacy and prevent data breaches.
+   - The system should use **TLS (Transport Layer Security)** for data in transit and **AES-256** encryption for data at rest to ensure data integrity and confidentiality.
+
+- **Role-Based Access Control (RBAC)**:
+   - The platform should implement **RBAC** for admin and supplier accounts, ensuring that users only have access to the features and data that are relevant to their roles.
+   - Admins will have full access to all system settings, while suppliers will only have access to their product inventory and order information.
 
 ### 4.4 Reliability
-- 99.9% uptime with automated failover.
-- Real-time backups to ensure data recovery.
+- **Uptime**:
+   - The system must achieve a **99.9% uptime** per month, ensuring that the platform is always available for users. 
+   - Downtime due to maintenance should be scheduled during low-traffic hours and communicated in advance to minimize impact.
+
+- **Failover and Redundancy**:
+   - Automated **failover mechanisms** should be in place to switch traffic to backup servers in case of a failure in the primary server.
+   - This ensures that users can continue interacting with the website without interruption even if one server goes down.
+
+- **Real-Time Backups**:
+   - The system should conduct **real-time backups** to ensure that user data, transactions, and inventory information is protected from data loss.
+   - Backups should be stored in geographically distributed data centers for redundancy and to provide quick recovery in case of disaster.
 
 ### 4.5 Scalability
-- Horizontal scaling to handle traffic spikes during sales or promotions.
-- Efficient caching mechanisms for frequently accessed resources.
+- **Horizontal Scaling**:
+   - The system should support **horizontal scaling**, meaning it can handle increased load by adding more servers to the infrastructure. This is essential for handling traffic spikes, such as during flash sales or peak shopping seasons.
+   - Load balancing should be used to distribute incoming traffic evenly across servers to ensure optimal performance.
+
+- **Caching Mechanisms**:
+   - The platform should implement **efficient caching mechanisms** for frequently accessed resources, such as product details, user profiles, and shopping cart data.
+   - This will help reduce the load on the backend servers and improve response times for end-users.
+
+<img width="773" alt="Screenshot 2024-11-29 at 11 01 54 PM" src="https://github.com/user-attachments/assets/b0bc46cd-3afe-4230-8a91-b2d7503e89c1">
 
 ### 4.6 Compatibility
-- Browser compatibility for Chrome, Firefox, Safari, and Edge.
-- Mobile-first design optimized for small screens and tablets.
+- **Browser Compatibility**:
+   - The website must be fully compatible with the latest versions of major browsers, including **Chrome**, **Firefox**, **Safari**, and **Edge**. 
+   - This ensures that all users have a consistent and seamless experience regardless of their choice of browser.
+
+- **Mobile-First Design**:
+   - The platform must have a **mobile-first design**, meaning it should be optimized for mobile devices (smartphones and tablets) before being adapted for desktops.
+   - The design should be responsive, ensuring that the site adapts to different screen sizes without compromising the user experience.
 
 ### 4.7 Localization
-- Ensure smooth language switching without layout disruptions.
-- Flexible support for adding new languages and currencies.
+- **Language Switching**:
+   - The platform should provide **smooth language switching** without layout disruptions. Users should be able to easily switch between languages from the website’s header or footer.
+   - Multiple language options should be available based on the user’s location or preferences, allowing for a personalized experience.
+
+- **Currency Support**:
+   - The website should support **multiple currencies**. The platform will display prices in the local currency based on the user's location or the currency selected by the user.
+   - The system should automatically convert prices to the local currency based on current exchange rates or allow the user to manually choose the desired currency from a dropdown menu.
 
 ---
 
@@ -195,5 +296,6 @@ The diagram details the step-by-step flow for each interaction, representing mis
 - **Customer**: Submits false support requests or misuses return policies.
 - **Support Staff**: May also be involved in processing false support requests or aiding in unauthorized access.
 - **Admin**: Faces risks of unauthorized system access or exploitation by malicious actors.
-<img width="1000" alt="Screenshot 2024-11-29 at 10 18 48 PM" src="https://github.com/user-attachments/assets/143eb319-c946-4ef4-83d4-fb0abe8e2f1e">
+<img width="1000" alt="Screenshot 2024-11-29 at 10 56 40 PM" src="https://github.com/user-attachments/assets/4b55f703-e932-4c55-ad99-db9d1b1287f8">
+
 
