@@ -148,5 +148,5 @@ The scope of the Decathlon website project includes designing, developing, and i
 This document defines the full scope and technical requirements for the Decathlon website project. It is intended as a reference for all teams involved in the development, implementation, and management of the platform.
 
 ## References
-- [Stakeholders](IIITLucknowSWEngg/CSAICSABTeam010/STAKEHOLDERS.md)
-- [Project](IIITLucknowSWEngg/CSAICSABTeam010/Project.md)
+- [STAKEHOLDERS.md](IIITLucknowSWEngg/CSAICSABTeam010/STAKEHOLDERS.md)
+- [Project.md](IIITLucknowSWEngg/CSAICSABTeam010/Project.md)
