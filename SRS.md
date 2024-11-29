@@ -1,4 +1,4 @@
-# Software Requirements Specification (SRS) for Decathlon.com Clone
+# Software Requirements Specification (SRS) for Decathlon.com Competitor
 
 ## 1. Introduction
 
@@ -6,7 +6,7 @@
 This document outlines the functional and non-functional requirements for developing the Decathlon.com clone website. The platform will serve as a robust e-commerce solution for sporting goods, enabling users to browse and purchase products, read product reviews, and participate in promotions. Additionally, it will provide administrative tools for inventory and user management.
 
 ### 1.2 Scope
-The Decathlon.com clone website will provide an extensive catalog of sports equipment, facilitate personalized shopping experiences, and ensure seamless integration with logistics and payment systems. The platform will support features like advanced product filtering, multi-sport product categories, community-building features (e.g., forums, blogs), and localized support for different regions.
+The Decathlon.com competitor website will provide an extensive catalog of sports equipment, facilitate personalized shopping experiences, and ensure seamless integration with logistics and payment systems. The platform will support features like advanced product filtering, multi-sport product categories, community-building features (e.g., forums, blogs), and localized support for different regions.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 - **SRS**: Software Requirements Specification
@@ -171,7 +171,7 @@ The diagram details the step-by-step flow for each interaction, representing the
 
 ### Error Case Diagram
 
-Below is the Error Case Diagram for the **Decathlon.com clone website**. It illustrates the primary actors (**Customer**, **Admin**, **Supplier/Vendor**, **Support Staff**, and **Delivery Personnel**) and their interactions with the system during error scenarios like **Product Browsing Failures, Payment Issues, Order Fulfillment Failures, Inventory Sync Errors, and Support Delays**.
+Below is the Error Case Diagram for the **Decathlon.com competitor website**. It illustrates the primary actors (**Customer**, **Admin**, **Supplier/Vendor**, **Support Staff**, and **Delivery Personnel**) and their interactions with the system during error scenarios like **Product Browsing Failures, Payment Issues, Order Fulfillment Failures, Inventory Sync Errors, and Support Delays**.
 
 The diagram details the step-by-step flow for each interaction, representing potential error scenarios that could occur during normal operations:
 
@@ -185,7 +185,7 @@ The diagram details the step-by-step flow for each interaction, representing pot
 
 ### Abuse Case Diagram
 
-Below is the Abuse Case Diagram for the **Decathlon.com clone website**. It illustrates the primary actors (**Malicious User**, **Unintentional User**, **Customer**, **Support Staff**, and **Admin**) and their interactions with the system during potential abuse scenarios like **Payment Exploitation, Account Hacking, Malicious Code Injection, Spam Reviews, and System Overload**.
+Below is the Abuse Case Diagram for the **Decathlon.com competitor website**. It illustrates the primary actors (**Malicious User**, **Unintentional User**, **Customer**, **Support Staff**, and **Admin**) and their interactions with the system during potential abuse scenarios like **Payment Exploitation, Account Hacking, Malicious Code Injection, Spam Reviews, and System Overload**.
 
 The diagram details the step-by-step flow for each interaction, representing misuse scenarios that could occur within the system:
 
