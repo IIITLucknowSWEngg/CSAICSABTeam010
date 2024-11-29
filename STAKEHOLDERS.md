@@ -1,6 +1,6 @@
 # STAKEHOLDERS 
 ## OVERVIEW
-This document outlines the key stakeholders involved in the DECATHLON clone project. Stakeholders include all individuals, groups, and organizations that are affected by the project or have an interest in its success.
+This document outlines the key stakeholders involved in the DECATHLON competitor project. Stakeholders include all individuals, groups, and organizations that are affected by the project or have an interest in its success.
 
 | **Key Stakeholder** | **Role**                                                        | **Interaction**                                                    | **Impact**                                    |
 |---------------------|-----------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
