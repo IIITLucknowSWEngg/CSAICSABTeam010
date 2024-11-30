@@ -1,5 +1,73 @@
 # Scope of the Project
 
+## Software Scope
+
+The Decathlon.com competitor website aims to provide a comprehensive e-commerce platform tailored for sporting goods. It will cater to a wide range of users, including individual customers, sports enthusiasts, teams, and administrators. The system is designed to ensure a seamless shopping experience while incorporating features to promote community engagement and efficient logistics.
+
+### Objectives
+- Build a robust platform with multi-sport product categories and user-friendly navigation.
+- Enable efficient inventory and order management for administrators.
+- Enhance user experience through personalized recommendations, loyalty programs, and real-time stock updates.
+- Support localized content and currency for global reach.
+
+### Target Audience
+- **Customers**: Individuals looking to purchase sports products, participate in events, or access sports-related content.
+- **Teams/Organizations**: Clubs, schools, or corporate groups managing bulk orders.
+- **Administrators**: Users managing inventory, customer data, and promotions.
+- **Vendors**: Suppliers updating product details and stock levels.
+
+### Exclusions
+The current scope excludes advanced features like Augmented Reality (AR), Virtual Try-On, Affiliate Marketing, and other non-essential integrations that can be considered in future iterations.
+
+---
+
+## Methodology
+
+The development of this project will follow an **Agile Software Development** methodology to ensure flexibility, iterative improvements, and active collaboration between stakeholders.
+
+### Key Phases
+
+#### 1. **Requirements Gathering**
+- Collect functional and non-functional requirements from stakeholders, including:
+  - Product Catalog Management
+  - User Management
+  - Logistics and Inventory Integration
+  - Promotions and Loyalty Programs
+- Reference industry standards such as **IEEE Std 830-1998** and **SWEBOK v3.0**.
+
+#### 2. **Planning and Design**
+- Design a modular architecture with the following components:
+  - **Front-End**: Responsive UI using React.js or Angular.
+  - **Back-End**: RESTful API services powered by Node.js or Python.
+  - **Database**: Use MongoDB for flexible data storage.
+- Create wireframes and prototypes for core features like product browsing, cart management, and checkout.
+
+#### 3. **Development**
+- Use an iterative sprint model to develop the system in manageable chunks.
+- Prioritize core features in early sprints:
+  - User Authentication
+  - Product Listings and Details
+  - Shopping Cart and Checkout
+- Incorporate advanced features in later sprints, such as Loyalty Programs and Multi-language Support.
+
+#### 4. **Testing**
+- Conduct extensive testing, including:
+  - **Unit Testing**: Test individual components for functionality.
+  - **Integration Testing**: Verify the seamless interaction between front-end, back-end, and database layers.
+  - **Performance Testing**: Ensure the platform can handle up to 5,000 concurrent users.
+  - **Security Testing**: Validate encryption protocols and role-based access controls.
+
+#### 5. **Deployment**
+- Deploy the platform on a scalable cloud service such as AWS or Google Cloud.
+- Implement CI/CD pipelines for automated deployment and updates.
+- Ensure real-time backups and disaster recovery mechanisms are in place.
+
+#### 6. **Maintenance and Iteration**
+- Gather user feedback post-launch and prioritize updates or feature additions.
+- Monitor system performance and reliability through uptime tracking tools like **Uptime.is**.
+
+---
+
 ## Included Features
 
 ### Core Features
@@ -36,6 +104,8 @@
 | Email Notifications      | Sends email updates for order confirmations and other events. | ✅ |
 | Social Media Login       | Allows users to log in using their social media accounts. | ✅ |
 | Local Sports Events Integration | Recommends nearby sports events based on user location. | ✅ |
+
+---
 
 ## Excluded Features
 
