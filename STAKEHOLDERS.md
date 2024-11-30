@@ -2,7 +2,7 @@
 ## OVERVIEW
 This document outlines the key stakeholders involved in the DECATHLON competitor project. Stakeholders include all individuals, groups, and organizations that are affected by the project or have an interest in its success.
 
- **Internal Stakeholders :**
+## Internal Stakeholders :
 | **Key Stakeholder** | **Role**                                                        | **Interaction**                                                    | **Impact**                                    |
 |---------------------|-----------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
 | **Admin**           | Manage the overall system including product listings, user accounts, and order processing. | Access backend tools for system administration, reporting, and management tasks. | **System Operation and Uptime:** Effective system management impacts stability, availability, and operational efficiency. |
