@@ -109,17 +109,23 @@ The activity diagram describes the flow of adding a product to the shopping cart
 ### 5.1 Performance
 - Support for 10,000 concurrent users.
 - APIs respond within 500ms for 95% of requests.
+ ![Performance diagram](https://github.com/user-attachments/assets/523056bd-c720-4f11-bcc7-2bfe34075364)
+
 
 ### 5.2 Scalability
 - Horizontal scaling for backend services.
 - Caching for frequently accessed data.
+  
+![Scalability Diagram](https://github.com/user-attachments/assets/dcfca96f-f445-4474-94af-11b96cd7993f)
 
 ### 5.3 Security
 - Use OAuth 2.0 or JWT for secure session management.
 - Encrypt sensitive data at rest (AES-256) and in transit (TLS).
+![Security Diagram](https://github.com/user-attachments/assets/497f3e5b-bda6-44ff-806d-eb61f3cc4446)
 
 ### 5.4 Availability
 - Maintain 99.9% uptime with failover mechanisms and load balancing.
+![Availability Diagram](https://github.com/user-attachments/assets/70c53c36-aa06-4c02-a9d6-1e23f4062baf)
 
 ### 5.5 Accessibility
 - Ensure WCAG 2.1 compliance for inclusivity.
