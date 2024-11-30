@@ -1,112 +1,127 @@
+# Software Design Description (SDD)
 
-## **Table of Contents**
-1. [Introduction](#introduction)
-2. [Design Principles](#design-principles)
-3. [System Overview](#system-overview)
-4. [Architectural Design](#architectural-design)
-5. [Detailed Design](#detailed-design)
-6. [User Interface Design](#user-interface-design)
-7. [Activity Diagrams](#activity-diagrams)
-8. [References](#references)
+## 1. Introduction
 
----
+### 1.1 Purpose
+The purpose of this Software Design Description (SDD) is to define the architecture, module design, and system interfaces for the **Decathlon Website Project**. This document serves as a guide for development, ensuring the website meets the functional and non-functional requirements outlined in the User Requirements Document (URD) and Software Requirements Specification (SRS).
 
-## **1. Introduction**
-
-### Purpose  
-This document outlines the software design for the **Decathlon Clone** project. It provides details about the architecture, modules, and design decisions.
-
-### Scope  
-- **Frontend:** React.js  
-- **Backend:** Node.js (Express.js)  
-- **Database:** MongoDB  
+### 1.2 Scope
+The **Decathlon Website Project** is an e-commerce platform aimed at providing users with seamless product browsing, purchasing, and customer support experiences. The system includes a front-end website, backend services, content management system (CMS), inventory management, payment processing, and analytics integration.
 
 ---
 
-## **2. Design Principles**
+## 2. Design Overview
 
-The design of this system adheres to the following principles from **SWEBOK**:  
-- **Modularity**: The system is divided into modules (e.g., User Management, Product Management).  
-- **Separation of Concerns**: Each module has a specific responsibility, ensuring clarity and maintainability.  
-- **Scalability**: The design supports future enhancements and increased user load.  
-- **Reusability**: Components are reusable across modules where applicable.  
-- **Security**: User data and operations are safeguarded through encryption and validation.
+### 2.1 Architectural Pattern
+The Decathlon website employs a **three-tier architecture**:
+1. **Presentation Layer**: Front-end interface for customers, store managers, and administrators.
+2. **Application Layer**: Back-end services and business logic.
+3. **Data Layer**: Database and content storage systems.
 
----
-
-## **3. System Overview**
-
-### Functional Overview  
-The system replicates the functionality of the Decathlon website, including:  
-- **User Authentication**: Registration and Login.  
-- **Product Browsing**: Viewing product categories and details.  
-- **Cart Management**: Adding/removing items.  
-- **Order Processing**: Checkout and payment.
-
-### System Context Diagram  
+### 2.2 System Components
+- **Front-end Application**: Built using responsive web technologies (HTML, CSS, JavaScript frameworks).
+- **Backend API Services**: Built on RESTful APIs.
+- **Database**: Relational database for transactional data and a NoSQL database for product catalogs.
+- **Third-party Integrations**: Payment gateways, analytics tools, and CRM.
 
 ---
 
-## **4. Architectural Design**
+## 3. UML Diagrams
 
-### 4.1 System Architecture
-- **Layered Architecture**:
-  - Presentation Layer: React.js frontend.
-  - Application Layer: Node.js backend.
-  - Data Layer: MongoDB.
+### 3.1 ER Diagram
+The ER diagram models the relationships between users, products, orders, carts, and other entities in the system.
 
-### 4.2 Component Diagram  
-Include a visual diagram showing the main components (use draw.io or similar tools). Example:
-- **Frontend Components**: Login Page, Product Listing Page, Cart Page.
-- **Backend Modules**: Authentication Service, Product API, Cart API.
-- **Database Collections**: Users, Products, Orders.
+![ER Diagram](rendered/ER diagram.png)
 
 ---
 
-## **5. Detailed Design**
+### 3.2 Class Diagram
+The class diagram represents the structure of key entities and their relationships in the system.
 
-### 5.1 Module: User Management
-**Description**: Handles user registration, login, and profile management.  
-**Interfaces**:  
-- Input: User credentials (username, password).  
-- Output: Authentication token.  
-
-### 5.2 Module: Product Management  
-**Description**: Manages product browsing and details.  
-**Interfaces**:  
-- Input: User query (search, filters).  
-- Output: Product list, product details.  
-
-### 5.3 Module: Cart and Checkout  
-**Description**: Allows users to manage cart items and proceed to checkout.  
-**Interfaces**:  
-- Input: Cart actions (add, remove, update).  
-- Output: Order summary and payment confirmation.
+![Class Diagram](rendered/class diagram.png)
 
 ---
 
-## **6. User Interface Design**
+### 3.3 Sequence Diagram: Order Checkout
+The sequence diagram illustrates the process flow for a customer placing an order.
 
-### 6.1 Wireframes  
-- **Login Page**: Input fields for username and password, with a "Login" button.  
-- **Product Listing Page**: Grid layout displaying product thumbnails, names, and prices.  
-- **Cart Page**: List of items with quantity controls and total price display.
+![Sequence Diagram](https://github.com/CSAICSABTeam010/blob/main/sequence_design.png)
 
-### 6.2 User Interaction Flow  
-Describe user flows like registration, product search, and checkout.
 
 ---
 
-## **7. Activity Diagrams**
+### 3.4 Use Case Diagram
+The use case diagram highlights the interactions between actors (customers, admins) and the system.
 
-Provide diagrams for key workflows. Example tools: Lucidchart, draw.io.
+![Use Case Diagram](rendered/usecase digram.png)
 
-### 7.1 User Login Activity Diagram
-```plaintext
-[Start] --> [Enter Username & Password] --> [Click Login]
-    --> [Validate Credentials]
-        --> [Valid?] --> [Grant Access] --> [End]
-                       --> [Invalid?] --> [Show Error] --> [Retry]
+---
 
+### 3.5 Activity Diagram: Adding to Cart
+The activity diagram describes the flow of adding a product to the shopping cart.
 
+![Activity Diagram](rendered/activity diagram.png)
+
+---
+
+## 4. API Design
+
+### Key Endpoints
+
+#### Authentication API
+| Endpoint              | Method | Description               |
+|-----------------------|--------|---------------------------|
+| `/auth/login`         | POST   | Authenticate a user       |
+| `/auth/register`      | POST   | Register a new user       |
+| `/auth/logout`        | POST   | Log out the user          |
+
+#### Product API
+| Endpoint              | Method | Description               |
+|-----------------------|--------|---------------------------|
+| `/products`           | GET    | Fetch all products        |
+| `/products/{id}`      | GET    | Fetch a specific product  |
+| `/products`           | POST   | Add a new product         |
+| `/products/{id}`      | PUT    | Update a product          |
+| `/products/{id}`      | DELETE | Delete a product          |
+
+#### Cart API
+| Endpoint              | Method | Description               |
+|-----------------------|--------|---------------------------|
+| `/cart/add`           | POST   | Add item to cart          |
+| `/cart`               | GET    | View cart items           |
+| `/cart/remove`        | DELETE | Remove item from cart     |
+
+#### Order API
+| Endpoint              | Method | Description               |
+|-----------------------|--------|---------------------------|
+| `/order/checkout`     | POST   | Place an order            |
+| `/order/{id}`         | GET    | Fetch order details       |
+
+---
+
+## 5. Non-Functional Requirements (NFRs)
+
+### 5.1 Performance
+- Support for 10,000 concurrent users.
+- APIs respond within 500ms for 95% of requests.
+
+### 5.2 Scalability
+- Horizontal scaling for backend services.
+- Caching for frequently accessed data.
+
+### 5.3 Security
+- Use OAuth 2.0 or JWT for secure session management.
+- Encrypt sensitive data at rest (AES-256) and in transit (TLS).
+
+### 5.4 Availability
+- Maintain 99.9% uptime with failover mechanisms and load balancing.
+
+### 5.5 Accessibility
+- Ensure WCAG 2.1 compliance for inclusivity.
+
+---
+
+## 6. Conclusion
+
+This design document provides a comprehensive overview of the architecture, UML diagrams, API design, and NFRs for the Decathlon website project. It ensures a robust, scalable, and user-friendly e-commerce platform aligned with the requirements and best practices.
 
