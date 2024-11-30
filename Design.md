@@ -31,21 +31,24 @@ The Decathlon website employs a **three-tier architecture**:
 ### 3.1 ER Diagram
 The ER diagram models the relationships between users, products, orders, carts, and other entities in the system.
 
-![ER Diagram](rendered/ER diagram.png)
+![ER Diagram](https://github.com/user-attachments/assets/8197baf4-797a-49e9-9664-3b27bf3a7d48)
+
 
 ---
 
 ### 3.2 Class Diagram
 The class diagram represents the structure of key entities and their relationships in the system.
 
-![Class Diagram](rendered/class diagram.png)
+![Class Diagram](https://github.com/user-attachments/assets/962ca0ec-5a73-4d59-9ddc-1d2af2ccb42b)
+
 
 ---
 
 ### 3.3 Sequence Diagram: Order Checkout
 The sequence diagram illustrates the process flow for a customer placing an order.
 
-![Sequence Diagram](https://github.com/CSAICSABTeam010/blob/main/sequence_design.png)
+![Sequence Diagram](https://github.com/user-attachments/assets/84372c64-af4f-4d6d-bfee-0c0934557aa6)
+
 
 
 ---
@@ -53,14 +56,16 @@ The sequence diagram illustrates the process flow for a customer placing an orde
 ### 3.4 Use Case Diagram
 The use case diagram highlights the interactions between actors (customers, admins) and the system.
 
-![Use Case Diagram](rendered/usecase digram.png)
+![Use Case Diagram](https://github.com/user-attachments/assets/10ce8837-f172-47a0-863d-5409617a110f)
+
 
 ---
 
 ### 3.5 Activity Diagram: Adding to Cart
 The activity diagram describes the flow of adding a product to the shopping cart.
 
-![Activity Diagram](rendered/activity diagram.png)
+![Activity Diagram](https://github.com/user-attachments/assets/f6190f40-d68d-4284-a493-40f28c7b002d)
+
 
 ---
 
