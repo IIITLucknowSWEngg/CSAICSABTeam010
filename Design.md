@@ -26,7 +26,7 @@ The Decathlon website employs a **three-tier architecture**:
 
 ---
 
-## 3. UML Diagrams
+## 3. UML Diagrams(Database Design)
 
 ### 3.1 ER Diagram
 The ER diagram models the relationships between users, products, orders, carts, and other entities in the system.
@@ -70,37 +70,9 @@ The activity diagram describes the flow of adding a product to the shopping cart
 ---
 
 ## 4. API Design
+The API design diagram describes how the API functions.It visualizes the key API endpoints and how they are organized by functionality.
+<img width="1280" alt="Screenshot 2024-12-01 at 3 42 53 PM" src="https://github.com/user-attachments/assets/ac74b0a7-5bed-4c68-8782-50faa724d578">
 
-### Key Endpoints
-
-#### Authentication API
-| Endpoint              | Method | Description               |
-|-----------------------|--------|---------------------------|
-| `/auth/login`         | POST   | Authenticate a user       |
-| `/auth/register`      | POST   | Register a new user       |
-| `/auth/logout`        | POST   | Log out the user          |
-
-#### Product API
-| Endpoint              | Method | Description               |
-|-----------------------|--------|---------------------------|
-| `/products`           | GET    | Fetch all products        |
-| `/products/{id}`      | GET    | Fetch a specific product  |
-| `/products`           | POST   | Add a new product         |
-| `/products/{id}`      | PUT    | Update a product          |
-| `/products/{id}`      | DELETE | Delete a product          |
-
-#### Cart API
-| Endpoint              | Method | Description               |
-|-----------------------|--------|---------------------------|
-| `/cart/add`           | POST   | Add item to cart          |
-| `/cart`               | GET    | View cart items           |
-| `/cart/remove`        | DELETE | Remove item from cart     |
-
-#### Order API
-| Endpoint              | Method | Description               |
-|-----------------------|--------|---------------------------|
-| `/order/checkout`     | POST   | Place an order            |
-| `/order/{id}`         | GET    | Fetch order details       |
 
 ---
 
