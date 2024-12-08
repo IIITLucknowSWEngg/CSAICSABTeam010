@@ -179,7 +179,7 @@ The Decathlon competitor will adopt a client-server architecture with:
 ### 4.4 Reliability
 - **Uptime**:
    - The system must achieve a **99.9% uptime** per month, ensuring that the platform is always available for Decathlon users.
-     ![image](https://github.com/Decathlon user-attachments/assets/b741ceea-6826-4cb1-9cab-75f7fd0491e9)
+     ![image](https://github.com/user-attachments/assets/b741ceea-6826-4cb1-9cab-75f7fd0491e9)
 
    - Downtime due to maintenance should be scheduled during low-traffic hours and communicated in advance to minimize impact.
 
@@ -264,7 +264,7 @@ The diagram details the step-by-step flow for each interaction, representing the
 - **Supplier/Vendor**: Updates inventory and product listings.
 - **Support Staff**: Resolves customer issues and processes returns.
 - **Delivery Personnel**: Handles order fulfillment and delivery.
-<img width="1000" alt="Screenshot 2024-11-29 at 10 05 36 PM" src="https://github.com/Decathlon user-attachments/assets/0b584d49-b80e-4818-8d68-8e64c57c90fb">
+<img width="1000" alt="Screenshot 2024-11-29 at 10 05 36 PM" src="https://github.com/user-attachments/assets/0b584d49-b80e-4818-8d68-8e64c57c90fb">
 
 ### Error Case Diagram
 
@@ -278,7 +278,7 @@ The diagram details the step-by-step flow for each interaction, representing pot
 - **Supplier/Vendor**: Experiences errors in inventory syncing or product updates.
 - **Support Staff**: Handles errors in responding to customer inquiries or support delays.
 - **Delivery Personnel**: Faces issues with order fulfillment or delivery failure.
-<img width="1000" alt="Screenshot 2024-11-29 at 10 11 17 PM" src="https://github.com/Decathlon user-attachments/assets/8f0558d4-331c-4b4f-abdb-18d04533b490">
+<img width="1000" alt="Screenshot 2024-11-29 at 10 11 17 PM" src="https://github.com/user-attachments/assets/8f0558d4-331c-4b4f-abdb-18d04533b490">
 
 ### Abuse Case Diagram
 
@@ -292,6 +292,6 @@ The diagram details the step-by-step flow for each interaction, representing mis
 - **Customer**: Submits false support requests or misuses return policies.
 - **Support Staff**: May also be involved in processing false support requests or aiding in unauthorized access.
 - **Admin**: Faces risks of unauthorized system access or exploitation by malicious actors.
-<img width="1000" alt="Screenshot 2024-11-29 at 10 56 40 PM" src="https://github.com/Decathlon user-attachments/assets/4b55f703-e932-4c55-ad99-db9d1b1287f8">
+<img width="1000" alt="Screenshot 2024-11-29 at 10 56 40 PM" src="https://github.com/user-attachments/assets/4b55f703-e932-4c55-ad99-db9d1b1287f8">
 
 
