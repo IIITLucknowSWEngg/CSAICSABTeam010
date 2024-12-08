@@ -5,148 +5,138 @@ The scope of the Decathlon website project includes designing, developing, and i
 
 ### Key Areas in Scope
 #### UI/UX Design
-- **Website Structure**: Simple navigation and responsive design for desktop, tablet, and smartphone.
-- **Navigation**: Accessible and intuitive navigation framework for easy browsing and quick product discovery.
-- **Accessibility**: Compliance with WCAG accessibility guidelines.
+- **Website Structure**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Interacts with the front-end interface for seamless browsing on desktop, tablet, and smartphone.  
+  - **Stakeholder**: Development Team  
+    - **Role**: Ensures responsive and visually appealing design.
+
+- **Navigation**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Uses intuitive navigation to quickly find products and categories.  
+  - **Stakeholder**: QA Team  
+    - **Role**: Tests navigation for ease of use and accessibility compliance.
+
+- **Accessibility**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Benefits from WCAG-compliant features for better usability.  
+  - **Stakeholder**: IT and Security Team  
+    - **Role**: Ensures the platform adheres to WCAG accessibility standards.
 
 #### Product Catalog
-- **Product Listings**: Capabilities to add, modify, or update product descriptions, prices, images, and specifications.
-- **Search and Filter**: Advanced search and filtering options for efficient product discovery.
+- **Product Listings**: 
+  - **Stakeholder**: Store Manager  
+    - **Role**: Updates product descriptions, prices, and stock availability.  
+  - **Stakeholder**: Administrator  
+    - **Role**: Oversees updates and ensures consistency in product data.
+
+- **Search and Filter**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Uses advanced filters to find specific products efficiently.  
+  - **Stakeholder**: Development Team  
+    - **Role**: Implements search and filtering logic for fast and accurate results.
 
 #### E-commerce Functionality
-- **Shopping Cart**: Add, edit, or remove items.
-- **Checkout Process**: User authentication, address entry, payment processing, and order confirmation.
-- **Payment Gateway Integration**: Support for credit/debit cards, digital wallets, etc.
+- **Shopping Cart**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Adds, edits, or removes items from the shopping cart.  
+  - **Stakeholder**: QA Team  
+    - **Role**: Tests the cart functionality for reliability and usability.
+
+- **Checkout Process**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Completes purchases with a secure and user-friendly payment process.  
+  - **Stakeholder**: Financial Team  
+    - **Role**: Ensures smooth transaction processing through integrated payment gateways.
+
+- **Payment Gateway Integration**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Uses secure payment methods (credit cards, digital wallets, etc.).  
+  - **Stakeholder**: IT and Security Team  
+    - **Role**: Implements PCI-DSS compliance for secure transactions.
 
 #### User Account Management
-- **Account Creation**: Registration, login/logout, and password recovery.
-- **Order History**: View previous orders and track shipments.
+- **Account Creation**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Registers, logs in, and recovers account credentials securely.  
+  - **Stakeholder**: Development Team  
+    - **Role**: Designs a robust authentication system.
+
+- **Order History**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Views past purchases and tracks shipments.  
+  - **Stakeholder**: Support Agent  
+    - **Role**: Assists customers with order-related queries.
 
 #### Content Management System (CMS)
-- **Content Updates**: Tools for updating product information, promotions, and blogs.
-- **Media Management**: Upload, manage, and display multimedia assets like images and videos.
+- **Content Updates**: 
+  - **Stakeholder**: Administrator  
+    - **Role**: Updates product descriptions, promotions, and blogs.  
+  - **Stakeholder**: Content Creation Team  
+    - **Role**: Provides multimedia content for updates.
+
+- **Media Management**: 
+  - **Stakeholder**: Content Creation Team  
+    - **Role**: Uploads and manages multimedia assets for product and promotional displays.  
+  - **Stakeholder**: Administrator  
+    - **Role**: Approves and oversees media updates.
 
 #### Back-end Integration
-- **Inventory Management**: Real-time stock updates via integration with existing inventory control systems.
-- **CRM Integration**: Capture and manage customer interactions for tailored marketing.
-- **Analytics**: Integration of tools to monitor performance, user behavior, and sales metrics.
+- **Inventory Management**: 
+  - **Stakeholder**: Store Manager  
+    - **Role**: Ensures stock levels are updated in real-time.  
+  - **Stakeholder**: Vendor  
+    - **Role**: Manages product availability and restocking.
+
+- **CRM Integration**: 
+  - **Stakeholder**: Marketing Team  
+    - **Role**: Tracks customer interactions to create personalized campaigns.  
+  - **Stakeholder**: Administrator  
+    - **Role**: Oversees CRM integration and reporting.
+
+- **Analytics**: 
+  - **Stakeholder**: Marketing Team  
+    - **Role**: Uses analytics for sales and user behavior insights.  
+  - **Stakeholder**: Project Management Team  
+    - **Role**: Analyzes performance data for planning and decision-making.
 
 #### Customer Support
-- **Support Channels**: Live chat, email support, help center, and FAQs.
-- **Returns and Exchanges**: Processes to handle customer returns and exchanges.
+- **Support Channels**: 
+  - **Stakeholder**: Support Agent  
+    - **Role**: Provides live chat, email, and FAQ support to customers.  
+  - **Stakeholder**: Administrator  
+    - **Role**: Monitors support performance metrics.
+
+- **Returns and Exchanges**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Initiates returns and exchanges through the platform.  
+  - **Stakeholder**: Support Agent  
+    - **Role**: Processes and resolves return/exchange requests.
 
 #### Compliance and Security
-- **Data Protection**: Compliance with GDPR and other data protection regulations.
-- **Site Security**: Safeguards against fraud and secure transactions.
+- **Data Protection**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Benefits from secure data storage and handling.  
+  - **Stakeholder**: IT and Security Team  
+    - **Role**: Ensures GDPR compliance and robust data protection.
+
+- **Site Security**: 
+  - **Stakeholder**: Customer  
+    - **Role**: Interacts with a safe and secure platform.  
+  - **Stakeholder**: IT and Security Team  
+    - **Role**: Monitors for fraud prevention and security breaches.
 
 #### Marketing and Promotion
-- **Promotional Campaigns**: Tools for managing offers, discounts, and seasonal campaigns.
-- **Email Marketing Integration**: Support for newsletters, promotional emails, and customer engagement.
+- **Promotional Campaigns**: 
+  - **Stakeholder**: Marketing Team  
+    - **Role**: Creates and manages offers and discounts.  
+  - **Stakeholder**: Customer  
+    - **Role**: Benefits from discounts and promotional events.
+
+- **Email Marketing Integration**: 
+  - **Stakeholder**: Marketing Team  
+    - **Role**: Sends newsletters and promotional emails to engage users.  
+  - **Stakeholder**: Customer  
+    - **Role**: Receives personalized marketing communications.
 
 ---
-
-## Definitions, Abbreviations, and Acronyms
-
-### Definitions
-- **User**: Any individual interacting with the Decathlon website, including customers, store managers, administrators, and support agents.
-- **Product Catalog**: A list of products with descriptions, prices, images, and availability.
-- **CMS (Content Management System)**: Software for managing and updating website content.
-- **E-commerce Platform**: Infrastructure for supporting electronic transactions.
-- **Inventory Management System**: System for tracking and managing stock availability.
-- **CRM (Customer Relationship Management)**: Tools for analyzing and managing customer interactions.
-- **Analytics Tools**: Tools to monitor site performance, user behavior, and sales metrics.
-- **Security Measures**: Procedures to protect the website and user data from unauthorized access and breaches.
-- **Compliance and Accessibility Standards**: Legal requirements, such as GDPR and WCAG.
-
-### Acronyms
-- **URD**: User Requirements Document  
-- **CMS**: Content Management System  
-- **CRM**: Customer Relationship Management  
-- **GDPR**: General Data Protection Regulation  
-- **WCAG**: Web Content Accessibility Guidelines  
-- **API**: Application Programming Interface  
-- **SSL**: Secure Sockets Layer  
-- **PCI-DSS**: Payment Card Industry Data Security Standard  
-- **UX**: User Experience  
-- **UI**: User Interface  
-
----
-
-## Entity Definitions and Roles
-
-### Development Team
-- **Role**: Responsible for designing, coding, and implementing the website's features.
-- **Entities**: Front-end Developers, Back-end Developers, Full-Stack Developers, UX/UI Designers.
-
-### Quality Assurance (QA) Team
-- **Role**: Ensure the website's quality through rigorous testing.
-- **Entities**: QA Analysts, Testers, Automation Engineers.
-
-### Project Management Team
-- **Role**: Oversee project delivery within schedule and budget.
-- **Entities**: Project Managers, Product Owners, Scrum Masters.
-
-### Marketing Team
-- **Role**: Develop and execute marketing strategies.
-- **Entities**: Marketing Managers, Content Marketers, SEO Specialists.
-
-### Customer Support Team
-- **Role**: Provide assistance to users.
-- **Entities**: Support Agents, Customer Service Representatives.
-
-### Legal and Compliance Team
-- **Role**: Ensure compliance with industry regulations.
-- **Entities**: Legal Advisors, Compliance Officers.
-
-### IT and Security Team
-- **Role**: Manage technical infrastructure and website security.
-- **Entities**: IT Administrators, Security Analysts, Network Engineers.
-
-### Content Creation Team
-- **Role**: Create and manage product descriptions, blogs, and multimedia.
-- **Entities**: Content Writers, Graphic Designers, Video Editors.
-
----
-
-## Characteristics of Users
-
-### Customer
-- **Definition**: Interacts with the website to browse, purchase, and engage with products/services.
-- **Demographics**: Diverse in age, gender, location, and income.
-- **Behavior**: Product search, comparison, and purchase.
-- **Preferences**: Intuitive navigation, accurate product information, secure payments, and personalized recommendations.
-
-### Store Manager
-- **Definition**: Internal user responsible for inventory and product data management.
-- **Responsibilities**: Manage stock levels, update product details.
-- **Access Needs**: Backend access to update inventory, process returns, and generate reports.
-
-### Administrator
-- **Definition**: Internal user with full backend access.
-- **Roles**: Configure site settings, manage user roles, oversee integrations.
-- **Access Needs**: Complete access to CMS, e-commerce platform, and analytics tools.
-
-### Support Agent
-- **Definition**: Provides assistance to customers with inquiries and issues.
-- **Responsibilities**: Handle customer queries, returns, and complaints.
-- **Access Needs**: Access to customer interaction records, order management tools, and support systems.
-
----
-
-## Security and Compliance
-- **Data Protection**: Adheres to GDPR and other data protection laws.
-- **Site Security**: Measures to safeguard against fraud and unauthorized access.
-
----
-
-## Marketing and Promotions
-- **Promotional Campaigns**: Features for managing offers, discounts, and campaigns.
-- **Email Marketing Integration**: Tools for newsletters and promotional communications.
-
----
-
-This document defines the full scope and technical requirements for the Decathlon website project. It is intended as a reference for all teams involved in the development, implementation, and management of the platform.
-
-## References
-- [STAKEHOLDERS.md](STAKEHOLDERS.md)
-- [Project.md](Project.md)
