@@ -155,7 +155,7 @@ The Decathlon competitor will adopt a client-server architecture with:
    - This is crucial to maintaining a positive user experience, especially for users with slower internet connections or devices. Faster response times improve overall satisfaction and reduce bounce rates.
   
 - **Concurrent Users**: 
-   - The system must be able to handle up to **5,000 concurrent users per server** without any noticeable performance degradation. 
+   - The system must be able to handle up to **10,000 concurrent users per server** without any noticeable performance degradation. 
    - Load testing will be conducted to ensure the platform can handle high user activity, especially during peak shopping times like holiday sales or special promotions.
 
 ### 4.2 Usability
