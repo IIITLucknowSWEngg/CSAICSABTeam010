@@ -205,10 +205,6 @@ The Decathlon competitor will adopt a client-server architecture with:
    - The website must be fully compatible with the latest versions of major browsers, including **Chrome**, **Firefox**, **Safari**, and **Edge**. 
    - This ensures that all users have a consistent and seamless experience regardless of their choice of browser.
 
-- **Mobile-First Design**:
-   - The platform must have a **mobile-first design**, meaning it should be optimized for mobile devices (smartphones and tablets) before being adapted for desktops.
-   - The design should be responsive, ensuring that the site adapts to different screen sizes without compromising the user experience.
-
 ### 4.7 Localization
 - **Language Switching**:
    - The platform should provide **smooth language switching** without layout disruptions. Users should be able to easily switch between languages from the website’s header or footer.
