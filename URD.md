@@ -123,7 +123,7 @@ This document outlines the user requirements for the Decathlon.com competitor we
 - All users must be able to register using an email address or phone number.  
 - Users must have secure login functionality and a password recovery option.  
 
-### **3.2 Product Browsing**
+### **3.2 Product Browsing and Filtering**
 - Customers must be able to search for products by category, brand, or keyword.  
 - Filters for price, availability, and brand must be available for efficient product discovery.  
 
@@ -131,13 +131,20 @@ This document outlines the user requirements for the Decathlon.com competitor we
 - Customers must be able to add items to a cart and edit the cart before checkout.  
 - Secure payment processing must be supported with multiple payment options.  
 
-### **3.4 Inventory and Logistics**
-- Store managers and suppliers must have real-time inventory management capabilities.  
-- Delivery tracking must be integrated for accurate logistics updates.  
+### **3.4 Logistics and Tracking**
+- Customers must be able to track their order status in real time.  
+- Delivery personnel must have optimized routes for timely delivery.  
 
 ### **3.5 Customer Feedback and Reviews**
 - Customers must be able to leave reviews and ratings for purchased products.  
 - Admins must have moderation capabilities to ensure quality feedback.  
+
+### **3.6 Inventory Management**
+- Store managers and suppliers must have real-time inventory management capabilities.  
+
+### **3.7 Admin Panel**
+- Admins must have access to real-time data on platform metrics, including sales, user activity, and inventory.  
+- Admins must have tools for resolving disputes and monitoring performance.  
 
 ---
 
@@ -153,8 +160,10 @@ This document outlines the user requirements for the Decathlon.com competitor we
 - The platform must be intuitive and accessible to users with varying technical skills.  
 
 ### **4.4 Reliability**
-- The system must achieve 99.9% uptime with failover mechanisms in place.  
-<img width="778" alt="Screenshot 2024-12-08 at 3 20 31 PM" src="https://github.com/user-attachments/assets/6ca523cd-d372-4141-a4e2-dfd7ca1117e2">
+- The system must achieve 99.9% uptime with failover mechanisms in place.
+  ![image](https://github.com/user-attachments/assets/d81b6153-7022-4ab6-ace9-bf9fe8676ad8)
+
+
 ---
 
 ## **5. User Interface Requirements**
