@@ -1,26 +1,26 @@
-# Feature: User Registration
+# Feature: Decathlon user Registration
 
-## Scenario: User registers successfully
+## Scenario: Decathlon user registers successfully
 
 ### Given:
-The user is on the registration page.
+The Decathlon user is on the registration page.
 
 ### When:
-The user enters valid information (name, email, and password).
+The Decathlon user enters valid information (name, email, and password).
 
 ### Then:
-The user should be successfully registered.  
-The user should be redirected to the login page.
+The Decathlon user should be successfully registered.  
+The Decathlon user should be redirected to the login page.
 
-## User_reg.js Code:
+## Decathlon user_reg.js Code:
 
 ```javascript
 const chai = require('chai');
 const expect = chai.expect;
 const registrationPage = require('../pages/registrationPage');
 
-describe('User Registration', function() {
-  it('should register user successfully', function() {
+describe('Decathlon user Registration', function() {
+  it('should register Decathlon user successfully', function() {
     registrationPage.open();
     registrationPage.fillRegistrationForm('John Doe', 'johndoe@example.com', 'Password123');
     registrationPage.submitForm();
@@ -33,17 +33,17 @@ describe('User Registration', function() {
 
 # Feature: Product Browsing
 
-## Scenario: User browses products successfully
+## Scenario: Decathlon user browses products successfully
 
 ### Given:
-The user is on the homepage.
+The Decathlon user is on the homepage.
 
 ### When:
-The user selects a sport category (e.g., Running).
+The Decathlon user selects a sport category (e.g., Running).
 
 ### Then:
-The user should be shown the relevant products in the selected category.  
-The user should be able to filter products by price and brand.
+The Decathlon user should be shown the relevant products in the selected category.  
+The Decathlon user should be able to filter products by price and brand.
 
 ## Product_browsing.js Code:
 
@@ -71,17 +71,17 @@ describe('Product Browsing', function() {
 
 # Feature: Shopping Cart Management
 
-## Scenario: User adds products to the cart successfully
+## Scenario: Decathlon user adds products to the cart successfully
 
 ### Given:
-The user is logged in and viewing a product.
+The Decathlon user is logged in and viewing a product.
 
 ### When:
-The user clicks the "Add to Cart" button.
+The Decathlon user clicks the "Add to Cart" button.
 
 ### Then:
 The product should be added to the cart.  
-The user should be able to view the updated cart with the added product.
+The Decathlon user should be able to view the updated cart with the added product.
 
 ## Shopping_cart.js Code:
 
@@ -103,17 +103,17 @@ describe('Shopping Cart Management', function() {
 
 # Feature: Checkout Process
 
-## Scenario: User checks out successfully
+## Scenario: Decathlon user checks out successfully
 
 ### Given:
-The user has added products to their cart.
+The Decathlon user has added products to their cart.
 
 ### When:
-The user navigates to the checkout page and enters valid payment information.
+The Decathlon user navigates to the checkout page and enters valid payment information.
 
 ### Then:
-The user should see an order summary.  
-The user should receive an order confirmation.
+The Decathlon user should see an order summary.  
+The Decathlon user should receive an order confirmation.
 
 ## Checkout.js Code:
 
@@ -135,16 +135,16 @@ describe('Checkout Process', function() {
 
 # Feature: Track Order
 
-## Scenario: User tracks their order status
+## Scenario: Decathlon user tracks their order status
 
 ### Given:
-The user is logged in and has placed an order.
+The Decathlon user is logged in and has placed an order.
 
 ### When:
-The user navigates to the order tracking page and enters their order ID.
+The Decathlon user navigates to the order tracking page and enters their order ID.
 
 ### Then:
-The user should be shown the current status of their order (e.g., "Shipped", "Delivered").
+The Decathlon user should be shown the current status of their order (e.g., "Shipped", "Delivered").
 
 ## Order_tracking.js Code:
 
@@ -163,17 +163,17 @@ describe('Order Tracking', function() {
 ```
 # Feature: Product Feedback
 
-## Scenario: User submits feedback for a product
+## Scenario: Decathlon user submits feedback for a product
 
 ### Given:
-The user has purchased a product and is on the product page.
+The Decathlon user has purchased a product and is on the product page.
 
 ### When:
-The user submits feedback with a rating and a comment.
+The Decathlon user submits feedback with a rating and a comment.
 
 ### Then:
 The feedback should be successfully submitted.  
-The user should see the feedback on the product page.
+The Decathlon user should see the feedback on the product page.
 
 ## Product_feedback.js Code:
 
