@@ -79,7 +79,7 @@ The API design diagram describes how the API functions.It visualizes the key API
 ## 5. Non-Functional Requirements (NFRs)
 
 ### 5.1 Performance
-- Support for 5,000 concurrent users.
+- Support for 10,000 concurrent users.
 - APIs respond within 500ms for 95% of requests.
   
  ![Performance diagram](https://github.com/user-attachments/assets/523056bd-c720-4f11-bcc7-2bfe34075364)
