@@ -73,7 +73,7 @@ The development of this project will follow an **Agile Software Development** me
 ### Core Features
 | Feature                 | Description                                               | Status (Included)      |
 |:------------------------|:----------------------------------------------------------|:-----------------------|
-| User Registration        | Allows users to create an account.                        | ✅ |
+| User Registration        | Allows users to create an account via Google OAuth registration.                        | ✅ |
 | User Authentication      | Provides secure login and logout functionality.           | ✅ |
 | Product Listings         | Displays all products available for purchase.             | ✅ |
 | Product Details          | Shows detailed information about each product.            | ✅ |
