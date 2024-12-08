@@ -7,7 +7,7 @@ The Decathlon.com competitor website aims to provide a comprehensive e-commerce 
 ### Objectives
 - Build a robust platform with multi-sport product categories and user-friendly navigation.
 - Enable efficient inventory and order management for administrators.
-- Enhance user experience through personalized recommendations, loyalty programs, and real-time stock updates.
+- Enhance Decathlon userexperience through personalized recommendations, loyalty programs, and real-time stock updates.
 - Support localized content and currency for global reach.
 
 ### Target Audience
@@ -30,7 +30,7 @@ The development of this project will follow an **Agile Software Development** me
 #### 1. **Requirements Gathering**
 - Collect functional and non-functional requirements from stakeholders, including:
   - Product Catalog Management
-  - User Management
+  - Decathlon userManagement
   - Logistics and Inventory Integration
   - Promotions and Loyalty Programs
 - Reference industry standards such as **IEEE Std 830-1998** and **SWEBOK v3.0**.
@@ -45,7 +45,7 @@ The development of this project will follow an **Agile Software Development** me
 #### 3. **Development**
 - Use an iterative sprint model to develop the system in manageable chunks.
 - Prioritize core features in early sprints:
-  - User Authentication
+  - Decathlon userAuthentication
   - Product Listings and Details
   - Shopping Cart and Checkout
 - Incorporate advanced features in later sprints, such as Loyalty Programs and Multi-language Support.
@@ -63,7 +63,7 @@ The development of this project will follow an **Agile Software Development** me
 - Ensure real-time backups and disaster recovery mechanisms are in place.
 
 #### 6. **Maintenance and Iteration**
-- Gather user feedback post-launch and prioritize updates or feature additions.
+- Gather Decathlon userfeedback post-launch and prioritize updates or feature additions.
 - Monitor system performance and reliability through uptime tracking tools like **Uptime.is**.
 
 ---
@@ -73,8 +73,8 @@ The development of this project will follow an **Agile Software Development** me
 ### Core Features
 | Feature                 | Description                                               | Status (Included)      |
 |:------------------------|:----------------------------------------------------------|:-----------------------|
-| User Registration        | Allows users to create an account via Google OAuth registration.                        | ✅ |
-| User Authentication      | Provides secure login and logout functionality.           | ✅ |
+| Decathlon userRegistration        | Allows users to create an account via Google OAuth registration.                        | ✅ |
+| Decathlon userAuthentication      | Provides secure login and logout functionality.           | ✅ |
 | Product Listings         | Displays all products available for purchase.             | ✅ |
 | Product Details          | Shows detailed information about each product.            | ✅ |
 | Shopping Cart            | Enables users to add products and review their cart.      | ✅ |
@@ -82,7 +82,7 @@ The development of this project will follow an **Agile Software Development** me
 | Order History            | Allows users to view past orders and their details.       | ✅ |
 | Search Functionality     | Provides a way to search for products by keyword.         | ✅ |
 | Product Reviews          | Allows users to leave and view reviews for products.      | ✅ |
-| User Profile Management  | Enables users to manage their profile and settings.       | ✅ |
+| Decathlon userProfile Management  | Enables users to manage their profile and settings.       | ✅ |
 | Wishlist                 | Users can save favorite products for future purchases.    | ✅ |
 
 ### Advanced Features
@@ -103,7 +103,7 @@ The development of this project will follow an **Agile Software Development** me
 | Shipping Integration     | Integrates with shipping services to handle deliveries.   | ✅ |
 | Email Notifications      | Sends email updates for order confirmations and other events. | ✅ |
 | Social Media Login       | Allows users to log in using their social media accounts. | ✅ |
-| Local Sports Events Integration | Recommends nearby sports events based on user location. | ✅ |
+| Local Sports Events Integration | Recommends nearby sports events based on Decathlon userlocation. | ✅ |
 
 ---
 
