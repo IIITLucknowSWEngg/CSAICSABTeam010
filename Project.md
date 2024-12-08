@@ -54,7 +54,7 @@ The development of this project will follow an **Agile Software Development** me
 - Conduct extensive testing, including:
   - **Unit Testing**: Test individual components for functionality.
   - **Integration Testing**: Verify the seamless interaction between front-end, back-end, and database layers.
-  - **Performance Testing**: Ensure the platform can handle up to 5,000 concurrent users.
+  - **Performance Testing**: Ensure the platform can handle up to 10,000 concurrent users.
   - **Security Testing**: Validate encryption protocols and role-based access controls.
 
 #### 5. **Deployment**
