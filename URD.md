@@ -2,13 +2,13 @@
 
 ## **Overview**
 
-This document outlines the user requirements for the Decathlon.com competitor website, an e-commerce platform specializing in sports equipment and accessories. It serves to connect sports enthusiasts with quality products while providing seamless experiences for customers, store managers, admins, and suppliers. The platform also aims to offer efficient inventory management, logistics, and support systems.
+This document outlines the athlete requirements for the Decathlon.com competitor website, an e-commerce platform specializing in sports equipment and accessories. It serves to connect sports enthusiasts with quality products while providing seamless experiences for customers, store managers, admins, and suppliers. The platform also aims to offer efficient inventory management, logistics, and support systems.
 
 ---
 
 ## **Table of Contents**
 
-1. [User Stories](#1-user-stories)  
+1. [Athlete Stories](#1-athlete-stories)  
 2. [Use Cases](#2-use-cases)  
 3. [Functional Requirements](#3-functional-requirements)  
 4. [Non-Functional Requirements](#4-non-functional-requirements)  
@@ -16,9 +16,9 @@ This document outlines the user requirements for the Decathlon.com competitor we
 
 ---
 
-## **1. User Stories**
+## **1. Athlete Stories**
 
-### **User 1: Customer**  
+### **Athlete 1: Customer**  
 - **Scenario**: I want to browse sports products, make purchases, and track my orders easily.  
 - **Goals**:
   1. Explore products by category, brand, or sport type.  
@@ -32,7 +32,7 @@ This document outlines the user requirements for the Decathlon.com competitor we
 
 ---
 
-### **User 2: Store Manager**  
+### **Athlete 2: Store Manager**  
 - **Scenario**: I manage a Decathlon store and want to update product listings and monitor inventory efficiently.  
 - **Goals**:
   1. Update stock levels, product descriptions, and pricing dynamically.  
@@ -45,20 +45,20 @@ This document outlines the user requirements for the Decathlon.com competitor we
 
 ---
 
-### **User 3: Admin**  
-- **Scenario**: I oversee platform operations and ensure smooth transactions for all users.  
+### **Athlete 3: Admin**  
+- **Scenario**: I oversee platform operations and ensure smooth transactions for all athletes.  
 - **Goals**:
   1. Approve or reject product listings and store registrations.  
   2. Resolve customer disputes and refund requests.  
-  3. Monitor platform performance and user activity.  
-  4. Generate reports on platform metrics (sales, user activity, and inventory).  
+  3. Monitor platform performance and atlete activity.  
+  4. Generate reports on platform metrics (sales, athlete activity, and inventory).  
 - **Pain Points**:  
   - Lack of tools to track and resolve disputes effectively.  
   - Difficulty in generating detailed performance reports.  
 
 ---
 
-### **User 4: Supplier**  
+### **Athlete 4: Supplier**  
 - **Scenario**: I supply sports products and want to track my inventory and manage deliveries.  
 - **Goals**:
   1. Update product availability and restock items efficiently.  
@@ -120,8 +120,8 @@ This document outlines the user requirements for the Decathlon.com competitor we
 ## **3. Functional Requirements**
 
 ### **3.1 User Registration and Login**
-- All users must be able to register using an email address or phone number.  
-- Users must have secure login functionality and a password recovery option.  
+- All athletes must be able to register using an email address or phone number.  
+- athletes must have secure login functionality and a password recovery option.  
 
 ### **3.2 Product Browsing and Filtering**
 - Customers must be able to search for products by category, brand, or keyword.  
@@ -143,7 +143,7 @@ This document outlines the user requirements for the Decathlon.com competitor we
 - Store managers and suppliers must have real-time inventory management capabilities.  
 
 ### **3.7 Admin Panel**
-- Admins must have access to real-time data on platform metrics, including sales, user activity, and inventory.  
+- Admins must have access to real-time data on platform metrics, including sales, athlete activity, and inventory.  
 - Admins must have tools for resolving disputes and monitoring performance.  
 
 ---
@@ -154,10 +154,10 @@ This document outlines the user requirements for the Decathlon.com competitor we
 - The platform must load within 2 seconds under normal network conditions.  
 
 ### **4.2 Security**
-- All sensitive user data must be encrypted both in transit and at rest.  
+- All sensitive athlete data must be encrypted both in transit and at rest.  
 
 ### **4.3 Usability**
-- The platform must be intuitive and accessible to users with varying technical skills.  
+- The platform must be intuitive and accessible to athletes with varying technical skills.  
 
 ### **4.4 Reliability**
 - The system must achieve 99.9% uptime with failover mechanisms in place.
@@ -186,4 +186,4 @@ This document outlines the user requirements for the Decathlon.com competitor we
 ---
 
 ## **6. Conclusion**
-This document provides detailed user requirements for the Decathlon.com competitor website. It serves as a guide for development, ensuring that the platform aligns with user expectations and project goals.
+This document provides detailed athlete requirements for the Decathlon.com competitor website. It serves as a guide for development, ensuring that the platform aligns with athlete expectations and project goals.
