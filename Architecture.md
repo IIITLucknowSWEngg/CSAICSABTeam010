@@ -458,6 +458,32 @@ OrderService --> ShippingService : Manage Shipping
 
 ```
 ---
+## 9. Swimlane Diagram
+<img width="541" alt="Screenshot 2024-12-08 at 4 48 36 PM" src="https://github.com/user-attachments/assets/f6cae31a-59b0-4428-a7f3-b9ec1d594b84">
 
-
+```plantuml
+@startuml
+|Customer|
+start
+:Browse Products;
+:Select Category and Filter;
+:View Product Details;
+:Add to Cart;
+|Admin|
+:Manage Product Listings;
+:Approve/Reject New Listings;
+:Monitor Inventory;
+|Customer|
+:Proceed to Checkout;
+:Enter Address and Payment Details;
+|Payment Gateway|
+:Process Payment;
+|Admin|
+:Validate Payment;
+|Customer|
+:Receive Order Confirmation;
+:Track Order Status;
+stop
+@enduml
+```
 
