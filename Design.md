@@ -49,23 +49,12 @@ The sequence diagram illustrates the process flow for a customer placing an orde
 
 ![Sequence Diagram](https://github.com/user-attachments/assets/84372c64-af4f-4d6d-bfee-0c0934557aa6)
 
-
-
 ---
 
-### 3.4 Use Case Diagram
-The use case diagram highlights the interactions between actors (customers, admins) and the system.
-
-![Use Case Diagram](https://github.com/user-attachments/assets/10ce8837-f172-47a0-863d-5409617a110f)
-
-
----
-
-### 3.5 Activity Diagram: Adding to Cart
+### 3.4 Activity Diagram: Adding to Cart
 The activity diagram describes the flow of adding a product to the shopping cart.
 
 ![Activity Diagram](https://github.com/user-attachments/assets/f6190f40-d68d-4284-a493-40f28c7b002d)
-
 
 ---
 
