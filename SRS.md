@@ -31,7 +31,7 @@ This SRS document includes:
 ## 2. System Overview
 
 ### 2.1 System Architecture
-The Decathlon clone will adopt a client-server architecture with:
+The Decathlon competitor will adopt a client-server architecture with:
 - **Front-End**: Interactive and responsive user interfaces for browsing and shopping.
 - **Back-End**: Handles product management, user data, and business logic using APIs.
 - **Database**: Stores information about users, products, orders, and reviews.
