@@ -382,47 +382,7 @@ Cancelled --> [*] : End
 ```
 ---
 
-## 7. Use Case Diagram
-![Use Case Diagram](https://github.com/user-attachments/assets/f50f7708-5c7d-4fed-9702-3f381c76f83d)
-```plantuml
-@startuml
-!theme plain
-
-actor "Player" as Player
-actor "Admin" as Admin
-
-rectangle "Decathlon Website" {
-    usecase "Browse Products" as UC1
-    usecase "Add to Cart" as UC2
-    usecase "Place Order" as UC3
-    usecase "Make Payment" as UC4
-    usecase "Track Order" as UC5
-    usecase "View Order History" as UC6
-}
-
-rectangle "Admin Panel" {
-    usecase "Manage Products" as UC7
-    usecase "Manage Orders" as UC8
-    usecase "View Analytics" as UC9
-}
-
-Player --> UC1 : Browses
-Player --> UC2 : Adds to Cart
-Player --> UC3 : Places Order
-Player --> UC4 : Makes Payment
-Player --> UC5 : Tracks Order
-Player --> UC6 : Views Order History
-
-Admin --> UC7 : Manages Products
-Admin --> UC8 : Manages Orders
-Admin --> UC9 : Views Analytics
-
-@enduml
-
-```
----
-
-## 8. Sequence Diagram
+## 7. Sequence Diagram
 ![Sequence Diagram](https://github.com/user-attachments/assets/d7fe0ee5-b7fa-4875-8c1e-6aa309df690b)
 ```plantuml
 @startuml
@@ -465,7 +425,7 @@ WebInterface -> Player : Display Confirmation
 ```
 ---
 
-## 9. Deployment Diagram
+## 8. Deployment Diagram
 ![Deployment Diagram](https://github.com/user-attachments/assets/9a31645c-e60b-486d-92a1-09e5085803be)
 ```plantuml
 @startuml
