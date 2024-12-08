@@ -178,7 +178,9 @@ The Decathlon competitor will adopt a client-server architecture with:
 
 ### 4.4 Reliability
 - **Uptime**:
-   - The system must achieve a **99.9% uptime** per month, ensuring that the platform is always available for users. 
+   - The system must achieve a **99.9% uptime** per month, ensuring that the platform is always available for users.
+     ![image](https://github.com/user-attachments/assets/b741ceea-6826-4cb1-9cab-75f7fd0491e9)
+
    - Downtime due to maintenance should be scheduled during low-traffic hours and communicated in advance to minimize impact.
 
 - **Failover and Redundancy**:
@@ -197,9 +199,7 @@ The Decathlon competitor will adopt a client-server architecture with:
 - **Caching Mechanisms**:
    - The platform should implement **efficient caching mechanisms** for frequently accessed resources, such as product details, user profiles, and shopping cart data.
    - This will help reduce the load on the backend servers and improve response times for end-users.
-
-<img width="773" alt="Screenshot 2024-11-29 at 11 01 54 PM" src="https://github.com/user-attachments/assets/b0bc46cd-3afe-4230-8a91-b2d7503e89c1">
-
+     
 ### 4.6 Compatibility
 - **Browser Compatibility**:
    - The website must be fully compatible with the latest versions of major browsers, including **Chrome**, **Firefox**, **Safari**, and **Edge**. 
