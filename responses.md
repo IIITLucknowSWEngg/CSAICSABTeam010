@@ -72,5 +72,7 @@ Key analytics features:
 # References
 
 https://medium.com/decathlondigital/software-architecture-architecture-decision-record-c4-11ceff211baf?source=collection_home---4------0-----------------------
+
 https://medium.com/decathlondigital/software-architecture-recognizing-scopes-and-boundaries-763497b639df?source=collection_home---4------1-----------------------
+
 https://medium.com/decathlondigital/software-architecture-making-decisions-f04cdd2cb3cf?source=collection_home---4------2-----------------------
