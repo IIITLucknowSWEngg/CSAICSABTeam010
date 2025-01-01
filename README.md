@@ -25,3 +25,7 @@ CSAICSABTeam010
 3. **ChatGPT** - [https://chat.openai.com](https://chat.openai.com)
 4. **IEEE Std 830-1998: Recommended Practice for Software Requirements Specifications** - IEEE Standards
 5. **SWEBOK v3.0: Software Engineering Body of Knowledge** - IEEE Computer Society
+
+## Group Presentation Screenshot
+
+![WhatsApp Image 2025-01-01 at 12 29 33](https://github.com/user-attachments/assets/0ea602ea-381a-4072-8a49-4004e359b372)
