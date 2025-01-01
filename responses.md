@@ -76,3 +76,11 @@ https://medium.com/decathlondigital/software-architecture-architecture-decision-
 https://medium.com/decathlondigital/software-architecture-recognizing-scopes-and-boundaries-763497b639df?source=collection_home---4------1-----------------------
 
 https://medium.com/decathlondigital/software-architecture-making-decisions-f04cdd2cb3cf?source=collection_home---4------2-----------------------
+
+---
+
+# Engineering blogs references
+
+https://tech.myntra.com/
+
+https://medium.com/myntra-engineering/building-myntras-video-platform-part-4-dd6d582ce2ef
