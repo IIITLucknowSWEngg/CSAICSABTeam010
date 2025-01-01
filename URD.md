@@ -117,54 +117,6 @@ This document outlines the athlete requirements for the Decathlon.com competitor
 
 ---
 
-## **3. Functional Requirements**
-
-### **3.1 User Registration and Login**
-- All athletes must be able to register using an email address or phone number.  
-- athletes must have secure login functionality and a password recovery option.  
-
-### **3.2 Product Browsing and Filtering**
-- Customers must be able to search for products by category, brand, or keyword.  
-- Filters for price, availability, and brand must be available for efficient product discovery.  
-
-### **3.3 Shopping Cart and Checkout**
-- Customers must be able to add items to a cart and edit the cart before checkout.  
-- Secure payment processing must be supported with multiple payment options.  
-
-### **3.4 Logistics and Tracking**
-- Customers must be able to track their order status in real time.  
-- Delivery personnel must have optimized routes for timely delivery.  
-
-### **3.5 Customer Feedback and Reviews**
-- Customers must be able to leave reviews and ratings for purchased products.  
-- Admins must have moderation capabilities to ensure quality feedback.  
-
-### **3.6 Inventory Management**
-- Store managers and suppliers must have real-time inventory management capabilities.  
-
-### **3.7 Admin Panel**
-- Admins must have access to real-time data on platform metrics, including sales, athlete activity, and inventory.  
-- Admins must have tools for resolving disputes and monitoring performance.  
-
----
-
-## **4. Non-Functional Requirements**
-
-### **4.1 Performance**
-- The platform must load within 2 seconds under normal network conditions.  
-
-### **4.2 Security**
-- All sensitive athlete data must be encrypted both in transit and at rest.  
-
-### **4.3 Usability**
-- The platform must be intuitive and accessible to athletes with varying technical skills.  
-
-### **4.4 Reliability**
-- The system must achieve 99.9% uptime with failover mechanisms in place.
-  ![image](https://github.com/user-attachments/assets/d81b6153-7022-4ab6-ace9-bf9fe8676ad8)
-
-
----
 
 ## **5. User Interface Requirements**
 
