@@ -77,53 +77,17 @@ The Decathlon competitor will adopt a client-server architecture with:
    - Returning Decathlon users will be able to check out with one click using saved payment methods, shipping addresses, and billing information. This reduces friction during the checkout process and enhances the overall Decathlon user experience.
    - Guest checkout will also be available for Decathlon users who do not wish to create an account.
 
-- **Gift Options**: 
-   - At checkout, Decathlon users can select gift options like gift wrapping, personalized messages, and card messages.
-   - This feature is especially useful for Decathlon users purchasing gifts for others, providing a seamless and personalized shopping experience.
 
 ### 3.4 Sports Community Features
 - **Blogs and Articles**: 
    - The platform will feature a dedicated blog or content hub that provides sports tips, product reviews, workout guides, and event news.
    - Decathlon users will be able to comment on articles and share them via social media, helping to foster a community atmosphere on the website.
 
-- **Event Registration**: 
-   - Decathlon users will be able to sign up for upcoming sports workshops, fitness classes, and competitive events. These events could be organized by Decathlon itself or by partner organizations.
-   - Event details, schedules, and pricing will be clearly displayed, with easy sign-up and payment options.
-
 - **Forums**: 
    - A forum will allow Decathlon users to discuss sports topics, ask for advice, share experiences, and give recommendations.
    - Moderators and staff will ensure that discussions remain respectful and that Decathlon users can get help when needed.
 
-### 3.5 Promotions and Loyalty Programs
-- **Discount Coupons**: 
-   - Decathlon users can apply promotional codes during checkout to receive discounts. These codes may be provided through marketing campaigns, newsletters, or loyalty programs.
-   - The system will automatically validate coupon codes and ensure they meet the required conditions before applying the discount.
-
-- **Loyalty Points**: 
-   - Decathlon users will earn loyalty points for each purchase, which can be redeemed for discounts, exclusive products, or special services like free shipping.
-   - Points will be added to the Decathlon user’s account after the order is shipped, and they can track their point balance from their profile page.
-
-- **Seasonal Campaigns**: 
-   - The platform will offer seasonal promotions and discounts, such as discounts on winter sports equipment during the winter season or exclusive offers for summer activities.
-   - These campaigns will be prominently displayed on the homepage and throughout the site.
-
-### 3.6 Localization and Internationalization
-- **Multi-Language Support**: 
-   - Decathlon users will be able to switch between multiple languages (e.g., English, French, Spanish, German) based on their location or preference.
-   - Language options will be available in the footer or as a dropdown menu in the header for easy access.
-
-- **Currency Conversion**: 
-   - The website will automatically detect the Decathlon user's location and display prices in their local currency. Alternatively, Decathlon users will be able to manually select a currency from a list.
-   - The exchange rates will be updated periodically to ensure accurate pricing.
-
-- **Local Sports Events**: 
-   - Based on the Decathlon user's location, the platform will recommend nearby sports events, workshops, or competitions.
-   - The recommendations will be based on the Decathlon user’s preferences and the current season, providing relevant and timely suggestions.
-
-### 3.7 Logistics and Inventory Integration
-- **Real-Time Stock Updates**: 
-   - The system will integrate with the backend inventory management system to show real-time stock availability for all products.
-   - If a product is out of stock, Decathlon users will be notified, and they may have the option to sign up for a notification when the product becomes available again.
+### 3.5 Logistics and Inventory Integration
 
 - **Delivery Estimation**: 
    - During checkout, Decathlon users will be shown the estimated delivery date for each product based on their shipping address and availability.
@@ -133,7 +97,7 @@ The Decathlon competitor will adopt a client-server architecture with:
    - Decathlon users will have the option to choose in-store pickup if they are located near a Decathlon store. This will allow them to avoid shipping fees and pick up their items in person.
    - Store pickup will also show the expected time frame for when the product will be available for pickup.
 
-### 3.8 Administrative Features
+### 3.6 Administrative Features
 - **Product Management**: 
    - Admins will be able to add, edit, and delete products from the product catalog in bulk. They will also manage product variations like size, color, and stock levels.
    - Product updates will reflect immediately on the website once approved by the admin.
