@@ -71,14 +71,15 @@ The API design diagram describes how the API functions.It visualizes the key API
 - Support for 10,000 concurrent Decathlon users.
 - APIs respond within 500ms for 95% of requests.
   
- ![Performance diagram](https://github.com/user-attachments/assets/523056bd-c720-4f11-bcc7-2bfe34075364)
+<img width="534" alt="Screenshot 2025-01-01 at 1 08 04 PM" src="https://github.com/user-attachments/assets/dfbbd319-eacc-4596-b275-2e2597452cc9" />
+
 
 
 ### 5.2 Scalability
 - Horizontal scaling for backend services.
 - Caching for frequently accessed data.
   
-![Scalability Diagram](https://github.com/user-attachments/assets/dcfca96f-f445-4474-94af-11b96cd7993f)
+<img width="467" alt="Screenshot 2025-01-01 at 1 16 22 PM" src="https://github.com/user-attachments/assets/d16719dd-d9d2-44cf-82c8-c991de13ea23" />
 
 ### 5.3 Security
 - Use OAuth 2.0 or JWT for secure session management.
@@ -92,7 +93,7 @@ The API design diagram describes how the API functions.It visualizes the key API
 ![Availability Diagram](https://github.com/user-attachments/assets/70c53c36-aa06-4c02-a9d6-1e23f4062baf)
 
 ### 5.5 Accessibility
-- Ensure WCAG 2.1 compliance for inclusivity.
+- To promote a more inclusive digital experience, it is essential to achieve compliance with the Web Content Accessibility Guidelines (WCAG) 2.1. These guidelines ensure that websites are accessible to individuals with various disabilities, including those with visual, auditory, motor, and cognitive impairments. By adhering to WCAG 2.1, you can create content that is perceivable, operable, understandable, and robust, making it accessible across a wide range of devices and assistive technologies. This commitment to accessibility not only fosters a more inclusive environment but also enhances usability, user experience, and compliance with legal requirements, reaching a broader audience and supporting equal access for all.
 
 ---
 
