@@ -87,14 +87,15 @@ InventoryManager --> Frontend : Update Product Data
 
 
 ## 2. Container Diagram
-![Container Diagram](https://github.com/user-attachments/assets/2eb7fa6d-5779-486c-8b19-c5b5bb0b5bd5)
+<img width="1280" alt="Screenshot 2025-01-01 at 12 03 13 PM" src="https://github.com/user-attachments/assets/521cb516-881f-4499-9d8d-a8ee76972d57" />
+
 ```plantuml
+
 @startuml
 !theme plain
 
 actor "Player (Customer)" as Player
 actor "Admin" as Admin
-actor "Inventory Manager" as InventoryManager
 
 ' --- Frontend Layer ---
 package "Frontend Layer" {
@@ -164,11 +165,10 @@ OrderService --> OrderDB : Save Order Data
 UserService --> UserDB : Save User Information
 ProductDB --> BackendAPI : Provide Product Details
 
-' Inventory Management interactions
-InventoryManager --> ProductDB : Update Stock Information
-InventoryManager --> Frontend : Update Product Data
+
 
 @enduml
+
 
 ```
 ---
